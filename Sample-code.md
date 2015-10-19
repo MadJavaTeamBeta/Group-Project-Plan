@@ -12,7 +12,7 @@ Voting/testing might begin with some of these:
 
 [4. Best, might be pre-built utility. Why reinvent? ](http://stackoverflow.com/questions/624581/what-is-the-best-java-email-address-validation-method/)
 This is the java solution...
-'''java
+```java
 public static boolean isValidEmailAddress(String email) {
    boolean result = true;
    try {
@@ -23,20 +23,21 @@ public static boolean isValidEmailAddress(String email) {
    }
    return result;
 }
-'''
+```
 
 This is the apache commons solution...
 The import:
-'''java
+```java
 import org.apache.commons.validator.routines.EmailValidator;
-'''
+```
 The code:
-'''java
+```java
 String email = "myName@example.com";
 boolean valid = EmailValidator.getInstance().isValid(email);
-'''
+```
 and to allow local addresses
-'''java
+```java
 boolean allowLocal = true;
 boolean valid = EmailValidator.getInstance(allowLocal).isValid(email);
-'''
+```
+
