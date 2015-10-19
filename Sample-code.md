@@ -3,13 +3,14 @@ I did a quick search for a few sample ideas, code that could easily be tested an
 I'm not very familiar with RegEx, and find them obscure to maintain, but open to thoughts on these, too. Dave.
 
 Voting/testing might begin with some of these:
-[1. Tutorial ](http://www.tutorialspoint.com/javaexamples/regular_email.htm)
 
-[2. ](http://alvinalexander.com/blog/post/java/java-email-address-validation-class)
+[1. Tutorial ](http://www.tutorialspoint.com/javaexamples/regular_email.htm/)
 
-[3. Using RegEx, explained](http://www.sw-engineering-candies.com/blog-1/howtofindvalidemailaddresswitharegularexpressionregexinjava)
+[2. Java sample ](http://alvinalexander.com/blog/post/java/java-email-address-validation-class/)
 
-[4. Best, might be pre-built utility. Why reinvent? ](http://stackoverflow.com/questions/624581/what-is-the-best-java-email-address-validation-method)
+[3. Using RegEx, explained ](http://www.sw-engineering-candies.com/blog-1/howtofindvalidemailaddresswitharegularexpressionregexinjava/)
+
+[4. Best, might be pre-built utility. Why reinvent? ](http://stackoverflow.com/questions/624581/what-is-the-best-java-email-address-validation-method/)
 This is the java solution...
 '''java
 public static boolean isValidEmailAddress(String email) {
